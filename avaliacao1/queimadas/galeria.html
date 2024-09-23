@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Queimadas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Galeria de Queimadas</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="causas.html">Causas</a></li>
+        <li><a href="cons.html">Consequências</a></li>
+        <li><a href="preven.html">Prevenção</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="galeria">
+      <img src="queimada1.jfif" alt="Queimada em floresta" onclick="openModal(this)">
+      <img src="ilegal.jpg" alt="Efeitos das queimadas" onclick="openModal(this)">
+      <img src="queimadaflo.jpeg" alt="Área queimada" onclick="openModal(this)">
+      <img src="queimadarea.jpg" alt="Floresta queimada" onclick="openModal(this)">
+      <img src="agri.jpg" alt="Queimada controlada" onclick="openModal(this)">
+      <img src="queimadapos.jpg" alt="Consequências das queimadas" onclick="openModal(this)">
+    </section>
+    <div id="modal" class="modal" onclick="closeModal()">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img id="modal-img" src="" alt="">
+    </div>
+  </main>
+  <footer>
+    <p>Caio Ferreira de Carvalho</p>
+  </footer>
+  <script src="galeria.js"></script>
+</body>
+</html>
