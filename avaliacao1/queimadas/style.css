@@ -332,3 +332,23 @@ footer {
   font-weight: bold;
   cursor: pointer;
 }
+.imagens-impactantes {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.imagens-impactantes h2 {
+    color: #2980b9;
+    margin-bottom: 15px;
+}
+
+.imagem-destaque {
+    max-width: 250px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.imagem-destaque:hover {
+    transform: scale(1.05);
+}
