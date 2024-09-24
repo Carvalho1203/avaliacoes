@@ -94,11 +94,6 @@ button:hover {
   background: #1c5987;
 }
 
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
-}
 
 footer {
   text-align: center;
@@ -113,9 +108,6 @@ footer {
     margin: 10px 0;
   }
 
-  .galeria {
-    grid-template-columns: 1fr;
-  }
 }
 
 .contato-form {
@@ -332,6 +324,7 @@ footer {
   font-weight: bold;
   cursor: pointer;
 }
+
 .imagens-impactantes {
     padding: 20px;
     border-radius: 8px;
