@@ -344,7 +344,7 @@ footer {
 }
 
 .imagem-destaque {
-    max-width: 250px;
+    max-width: 550px;
     border-radius: 8px;
     transition: transform 0.2s;
 }
